@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Check if the IP address field is empty
         if (empty($_POST['ipname'])) {
             // Redirect back to the test.php page with an error message if the input is empty
-            header('Location: ../test.php?error=empty');
+            header('Location: ../index.php?error=empty');
             exit;
         } else {
             // Prepare and execute the SQL statement to insert the IP address and description into the database
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $conn = null;
             
             // Redirect back to the test.php page after successful insertion
-            header('Location: ../test.php');
+            header('Location: ../index.php');
             exit;
         }
     }
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn = null;
         
         // Redirect back to the test.php page after successful insertion
-        header('Location: ../test.php');
+        header('Location: ../index.php');
         exit;
     }
 }

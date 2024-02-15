@@ -19,12 +19,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->rowCount() > 0) {
         // Update successful
         echo json_encode(array("success" => true, "message" => "Data updated successfully."));
-        header('Location: ../test.php');
+        header('Location: ../index.php');
         exit;
     } else {
         // Update failed
         echo json_encode(array("success" => false, "message" => "Failed to update data."));
-        header('Location: ../test.php');
+        header('Location: ../index.php');
         exit;
     }
 } else {

@@ -26,7 +26,7 @@ if (isset($_GET['delfa'])){
     }
     
     // Redirect back to the main page
-    header("Location: ../test.php");
+    header("Location: ../index.php");
     
     }
 
@@ -57,7 +57,7 @@ if (isset($_GET['delfa'])){
         }
         
         // Redirect back to the main page
-        header("Location: ../test.php");
+        header("Location: ../index.php");
         
         }
 ?>
