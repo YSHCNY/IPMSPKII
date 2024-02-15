@@ -12,6 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>PKII IPMS</title>
+    <link rel="icon" type="png/x-icon" href="./img/Group 62.ico">
+
  
     <link rel="stylesheet" href="./css/style.css">
 
