@@ -32,7 +32,7 @@ function getResponseTime($url)
 if (!isset($_GET['selectedOption']) || empty($_GET['selectedOption'])) {
     // Handle the case where no option is selected
     // For example, fetch all records
-    $sql = "SELECT * FROM ips";
+    $sql = "SELECT * FROM ips ORDER BY dp DESC";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $data = $stmt->fetchAll();
