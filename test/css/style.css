@@ -15,8 +15,23 @@
 }
 
 
+.custom-modal-dialog {
+    max-width: 50% !important; 
+   
+}
+
+.custom-modal-body {
+        max-width: 50% !important; /* Adjust the width as needed */
+    }
+
+
+
 
 /* color */
+
+.blackaf{
+    background-color: #000000 !important;
+}
 
 .textmain{
     color: #0A1D44 !important;

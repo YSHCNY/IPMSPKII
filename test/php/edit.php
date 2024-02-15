@@ -47,6 +47,22 @@ if(isset($_GET['id'])) {
         <!-- Add other fields as needed -->
         <button type="submit" class="btn btn-primary float-end my-4" onclick="return confirm('Are you sure you want to add this new ip?');">Save Changes</button>
     </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 }
 ?>
